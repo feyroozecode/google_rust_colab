@@ -1,6 +1,7 @@
 mod control_flow;
 mod fib;
 mod match_pattern;
+mod exo_nested_arrays;
 
 fn main() {
     println!("Hi welcome on Day 01 !");
@@ -9,5 +10,8 @@ fn main() {
 
     //fib::start();
 
-    match_pattern::start();
+    //match_pattern::start();
+
+exo_nested_arrays::start();
+    
 }
