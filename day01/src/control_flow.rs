@@ -4,7 +4,7 @@ pub fn start() {
     println!("Hi =>, {}", msg);
 }
 
-// age checker with using expression
+// age checker with using expression with if else
 fn age_classer(age: u32) -> &'static str {
     let res = if age <= 18 {
         "you are not able to passe"
@@ -16,3 +16,7 @@ fn age_classer(age: u32) -> &'static str {
 
     return res;
 }
+
+// while
+
+// loop
